@@ -4,7 +4,7 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-flask-oauth = "*"
 requests = "*"
 gunicorn = "*"
 pony = "*"
+flask-oauthlib = "*"

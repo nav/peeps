@@ -1,8 +1,12 @@
 {
     "default": {
-        "oauth2": {
-            "version": "==1.9.0.post1",
-            "hash": "sha256:15b5c42301f46dd63113f1214b0d81a8b16254f65a86d3c32a1b52297f3266e6"
+        "flask-oauthlib": {
+            "version": "==0.9.3",
+            "hash": "sha256:ee60f7e996850c3544821ce9746079917e5b839d38ce4190a63482b0a902e791"
+        },
+        "pony": {
+            "version": "==0.7.1",
+            "hash": "sha256:f3095910053ce60204e7af2dd5c3971bf4acf1db3c99ed7b7357cbfd7a9ac532"
         },
         "gunicorn": {
             "version": "==19.6.0",
@@ -12,6 +16,10 @@
             "version": "==0.12",
             "hash": "sha256:7f03bb2c255452444f7265eddb51601806e5447b6f8a2d50bbc77a654a14c118"
         },
+        "oauthlib": {
+            "version": "==2.0.1",
+            "hash": "sha256:132ad46df25e53a84b33f1fd43f80e973cda2cb018cc0168d7d0c8c4d5cef9b5"
+        },
         "click": {
             "version": "==6.7",
             "hash": "sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d"
@@ -20,21 +28,17 @@
             "version": "==0.23",
             "hash": "sha256:a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3"
         },
-        "flask-oauth": {
-            "version": "==0.12",
-            "hash": "sha256:74eb646b3e0b3b63d4adc36024d163033fc6d01f32cf01f9e9b6c8b562313ec6"
-        },
-        "httplib2": {
-            "version": "==0.10.3",
-            "hash": "sha256:e404d3b7bd86c1bc931906098e7c1305d6a3a6dcef141b8bb1059903abb3ceeb"
+        "Jinja2": {
+            "version": "==2.9.5",
+            "hash": "sha256:a7b7438120dbe76a8e735ef7eba6048eaf4e0b7dbc530e100812f8ec462a4d50"
         },
         "Werkzeug": {
             "version": "==0.11.15",
             "hash": "sha256:c6f6f89124df0514d886782c658c3e12f2caaa94da34cee3fd82eebf4ebf052b"
         },
-        "Jinja2": {
-            "version": "==2.9.5",
-            "hash": "sha256:a7b7438120dbe76a8e735ef7eba6048eaf4e0b7dbc530e100812f8ec462a4d50"
+        "requests-oauthlib": {
+            "version": "==0.7.0",
+            "hash": "sha256:87e1c05c1b4b4220af0c7ff4e6572ff7fba8032166cb1a12d2e1acd4a5fdaf4f"
         },
         "requests": {
             "version": "==2.13.0",
@@ -55,7 +59,7 @@
         ],
         "requires": {},
         "hash": {
-            "sha256": "664078bdfacd6743a322748c68ff568d21485c12b14c716d6b515fad9c50aef7"
+            "sha256": "5a38f90fb13d4e5ad199057838f754dce24d546be58910a4e45084f5d5882313"
         }
     }
 }
